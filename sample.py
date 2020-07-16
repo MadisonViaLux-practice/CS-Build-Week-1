@@ -109,28 +109,28 @@
 
 
 # Adding Lowest Numbers
-my_data = [[8, 4], [90, -1, 3], [9, 62], [-7, -1, -56, -6], [201], [76, 18]]
-
-def addingLowestNumbers(data):
-
-    newList = []
-
-    for i in data:
-        x = i[0]
-
-        if len(i) == 1:
-            newList.append(x)
-        else:
-            for j in i:
-                if j < x:
-                    x = j
-            newList.append(x)
-
-    print(newList)
-    print(sum(newList))
-    return sum(newList)
-
-addingLowestNumbers(my_data)
+# my_data = [[8, 4], [90, -1, 3], [9, 62], [-7, -1, -56, -6], [201], [76, 18]]
+#
+# def addingLowestNumbers(data):
+#
+#     newList = []
+#
+#     for i in data:
+#         x = i[0]
+#
+#         if len(i) == 1:
+#             newList.append(x)
+#         else:
+#             for j in i:
+#                 if j < x:
+#                     x = j
+#             newList.append(x)
+#
+#     print(newList)
+#     print(sum(newList))
+#     return sum(newList)
+#
+# addingLowestNumbers(my_data)
 
 
 
